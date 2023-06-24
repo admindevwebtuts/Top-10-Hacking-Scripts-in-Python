@@ -16,8 +16,8 @@ def crack_password(host, username, passwords):
         if attempt_ftp_login(host, username, password):
             break
 
-host = '192.185.10.110'
-username = 'devweuts'
-passwords = ['Johnmona1@!$', 'password', 'secret']
+host = 'localhost'
+username = 'user'
+passwords = ['123', 'password', 'secret']
 
 crack_password(host, username, passwords)
