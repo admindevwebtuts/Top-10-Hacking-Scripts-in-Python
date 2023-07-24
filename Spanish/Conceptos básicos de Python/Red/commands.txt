@@ -1,0 +1,4 @@
+ipconfig
+
+
+ping www.python.org
